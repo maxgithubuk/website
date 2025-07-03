@@ -1,26 +1,24 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fafafa;
-  margin: 0;
+  font-family: Courier, monospace;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 40px;
   padding: 0;
-  color: #333;
 }
 
 .container {
   max-width: 600px;
-  margin: 80px auto;
-  padding: 20px;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  text-align: center;
+  margin: 0 auto;
+  text-align: left;
 }
 
 a {
-  color: #007acc;
-  text-decoration: none;
-}
-a:hover {
+  color: #0000EE;
   text-decoration: underline;
+}
+
+hr {
+  margin: 2em 0;
+  border: none;
+  border-top: 1px solid #000;
 }
