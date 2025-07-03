@@ -1,24 +1,73 @@
 body {
-  font-family: Courier, monospace;
-  background-color: #ffffff;
-  color: #000000;
-  margin: 40px;
+  background-color: black;
+  color: #ffcc00;
+  font-family: "Courier New", monospace;
+  text-align: center;
+  margin: 0;
   padding: 0;
 }
 
 .container {
-  max-width: 600px;
+  width: 90%;
   margin: 0 auto;
-  text-align: left;
+  padding-top: 20px;
 }
 
-a {
-  color: #0000EE;
+h1 {
+  font-size: 28px;
+  color: maroon;
+}
+
+.highlight {
+  font-size: 36px;
+  color: yellow;
+  font-weight: bold;
+}
+
+.name {
+  color: gold;
   text-decoration: underline;
 }
 
-hr {
-  margin: 2em 0;
-  border: none;
-  border-top: 1px solid #000;
+.counter {
+  color: cyan;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.main-content {
+  border: 3px solid gray;
+  background-color: #111;
+  padding: 20px;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+.main-img {
+  width: 200px;
+  height: auto;
+  margin: 10px 0;
+  border: 2px solid gray;
+}
+
+.nav {
+  margin: 10px 0;
+}
+
+.nav a {
+  color: yellow;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  font-size: 12px;
+  color: white;
+  margin-top: 30px;
 }
