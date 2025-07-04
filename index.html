@@ -44,7 +44,7 @@
 
     .counter {
       margin-top: 10px;
-      font-size: 18px;
+      font-size: 16px; /* was 18px */
       color: cyan;
     }
 
@@ -132,7 +132,7 @@
     <h1>Welcome to:<br><span class="highlight">The <span class="name">Max Moser</span> Homepage</span></h1>
 
     <div class="intro-text">
-      I am a mixed-methods social science researcher. My interests include psychotherapy research, public health, market research, philosophy of mind, and critical and phenomenological psychiatry. I am also very interested in the history of psychiatry, history in general, sacred music, country music, and Elvis. I also really like movies. Although I basically love all movies, off the top of my head I count Billy Wilder, Howard Hawks, Preston Sturges, Chantal Ackerman, Ingmar Bergman, and Federico Fellini as some of my favourite filmmakers. If you would like to get in touch with me, please e-mail me at max[dot]moser@ucl.ac.uk.
+      I am a social science researcher. My interests include psychotherapy research, public health, market research, philosophy of mind, and critical and phenomenological psychiatry. I am also very interested in the history of psychiatry, history in general, sacred music, country music, and Elvis. I also really like movies. Although I basically love all movies, off the top of my head I count Billy Wilder, Howard Hawks, Preston Sturges, Chantal Ackerman, Ingmar Bergman, and Federico Fellini as some of my favourite filmmakers. If you would like to get in touch with me, please e-mail me at max[dot]moser@ucl.ac.uk.
     </div>
 
     <div class="main-content">
@@ -146,10 +146,10 @@
         </div>
 
         <!-- Image -->
-        <img src="figure.jpg" alt="Max Moser" class="main-img">
+        <img src="figure.jpeg" alt="Max Moser" class="main-img">
 
-        <!-- Counter -->
-        <div class="counter">You’re visitor #<span id="counter">000376</span> since February 19, 2024</div>
+        <!-- Dynamic Counter -->
+        <div class="counter">You’re visitor #<span id="counter"></span> since February 19, 2024</div>
 
         <!-- Bottom links -->
         <div class="side-link bottom-left">
@@ -169,5 +169,13 @@
       <p>Modelled on the legendary <a href="https://web.archive.org/web/19970608004456/http://www.sju.edu/~delvalle/antonio.html" target="_blank">Antonio Banderas Home Page</a> created by Vanessa DelValle (1995).</p>
     </div>
   </div>
+
+  <script>
+    // Fake visitor count simulation
+    const base = 376;
+    const maxOffset = 3000;
+    const fakeCount = base + Math.floor(Math.random() * maxOffset);
+    document.getElementById("counter").textContent = fakeCount.toString().padStart(6, '0');
+  </script>
 </body>
 </html>
