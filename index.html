@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Max Moser – Official Web Page</title>
-  <link rel="stylesheet" href="style.css">
   <style>
     body {
       background-color: #000;
@@ -36,7 +35,7 @@
 
     .intro-text {
       color: white;
-      font-size: 16px;
+      font-size: 14px;
       line-height: 1.6;
       margin-top: 20px;
       margin-bottom: 40px;
@@ -63,19 +62,8 @@
         2px 2px 0 #888,
         -2px -2px 0 #333;
       display: inline-block;
-    }
-
-    .nav {
-      margin: 10px 0;
-    }
-
-    .nav a {
-      font-weight: bold;
-      color: red;
-      text-shadow: 1px 1px #000;
-      font-family: 'Times New Roman', serif;
-      margin: 0 15px;
-      font-size: 18px;
+      position: relative;
+      max-width: 320px;
     }
 
     .main-img {
@@ -83,6 +71,44 @@
       margin: 20px auto;
       border: 2px solid #444;
       max-width: 300px;
+    }
+
+    .side-link {
+      position: absolute;
+      font-family: 'Times New Roman', serif;
+      font-size: 18px;
+      font-weight: bold;
+      text-shadow: 1px 1px #000;
+    }
+
+    .side-link a {
+      color: red;
+      text-decoration: none;
+    }
+
+    .big-letter {
+      font-size: 32px;
+      vertical-align: middle;
+    }
+
+    .top-left {
+      top: 10px;
+      left: -110px;
+    }
+
+    .top-right {
+      top: 10px;
+      right: -120px;
+    }
+
+    .bottom-left {
+      bottom: 10px;
+      left: -90px;
+    }
+
+    .bottom-right {
+      bottom: 10px;
+      right: -100px;
     }
 
     .footer {
@@ -100,23 +126,25 @@
   <div class="container">
     <h1>Welcome to:<br><span class="highlight">The <span class="name">Max Moser</span> Homepage</span></h1>
 
-    <div class="intro-text">
-      I am a social science researcher. My interests include psychotherapy research, public health, market research, philosophy of mind, and critical and phenomenological psychiatry. I am also very interested in the history of psychiatry, history in general, sacred music, country music, Elvis. I also really like movies. Although I basically love all movies, off the top of my head I count Billy Wilder, Howard Hawks, Preston Sturges, Chantal Ackerman, Ingmar Bergman, and Federico Fellini as some of my favourite filmmakers.
-    </div>
+ <div class="intro-text">
+  I am a social science researcher. My interests include psychotherapy research, public health, market research, philosophy of mind, and critical and phenomenological psychiatry. I am also very interested in the history of psychiatry, history in general, sacred music, country music, and Elvis. I also really like movies. Although I basically love all movies, off the top of my head I count Billy Wilder, Howard Hawks, Preston Sturges, Chantal Ackerman, Ingmar Bergman, and Federico Fellini as some of my favourite filmmakers. If you would like to get in touch with me, please e-mail me using <a href="mailto:max.moser@ucl.ac.uk" target="_blank" class="blink-link">this link</a>.
+</div>
 
     <div class="main-content">
       <div class="emboss-frame">
-        <div class="nav">
-          <a href="#">Biography</a>
-          <a href="#">Publications</a>
-          <a href="#">CV</a>
-        </div>
+        <!-- Top side links -->
+        <div class="side-link top-left"><a href="#"><span class="big-letter">B</span>iography</a></div>
+        <div class="side-link top-right"><a href="#"><span class="big-letter">P</span>ublications</a></div>
+
+        <!-- Image -->
         <img src="figure.jpg" alt="Max Moser" class="main-img">
+
+        <!-- Counter -->
         <div class="counter">You’re visitor #<span id="counter">000001</span> since July 3, 2025</div>
-        <div class="nav">
-          <a href="#">Links</a>
-          <a href="mailto:max.moser@ucl.ac.uk">E-mail</a>
-        </div>
+
+        <!-- Bottom side links -->
+        <div class="side-link bottom-left"><a href="#"><span class="big-letter">C</span>V</a></div>
+        <div class="side-link bottom-right"><a href="#"><span class="big-letter">L</span>inks</a></div>
       </div>
     </div>
 
