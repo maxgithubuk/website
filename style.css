@@ -30,3 +30,11 @@
   margin: 0 15px;
   font-size: 18px;
 }
+.intro-text {
+  color: white;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 0 10px;
+}
