@@ -44,7 +44,7 @@
 
     .counter {
       margin-top: 10px;
-      font-size: 16px; /* was 18px */
+      font-size: 16px;
       color: cyan;
     }
 
@@ -146,10 +146,10 @@
         </div>
 
         <!-- Image -->
-        <img src="figure.jpeg" alt="Max Moser" class="main-img">
+        <img src="figure.jpg" alt="Max Moser" class="main-img">
 
-        <!-- Dynamic Counter -->
-        <div class="counter">You’re visitor #<span id="counter"></span> since February 19, 2024</div>
+        <!-- Local +1 Counter -->
+        <div class="counter">You’re visitor #<span id="counter">000376</span> since February 19, 2024</div>
 
         <!-- Bottom links -->
         <div class="side-link bottom-left">
@@ -171,11 +171,13 @@
   </div>
 
   <script>
-    // Fake visitor count simulation
+    // Browser-local +1 visitor counter
     const base = 376;
-    const maxOffset = 3000;
-    const fakeCount = base + Math.floor(Math.random() * maxOffset);
-    document.getElementById("counter").textContent = fakeCount.toString().padStart(6, '0');
+    const key = "maxmoser-visit-count";
+    let stored = localStorage.getItem(key);
+    let count = stored ? parseInt(stored) + 1 : base;
+    localStorage.setItem(key, count);
+    document.getElementById("counter").textContent = count.toString().padStart(6, '0');
   </script>
 </body>
 </html>
