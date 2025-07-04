@@ -4,28 +4,114 @@
   <meta charset="UTF-8">
   <title>Max Moser – Official Web Page</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #000;
+      color: #ccc;
+      font-family: 'Times New Roman', serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 32px;
+      line-height: 1.5;
+    }
+
+    .highlight {
+      color: yellow;
+    }
+
+    .name {
+      font-style: italic;
+    }
+
+    .counter {
+      margin-top: 10px;
+      font-size: 18px;
+      color: cyan;
+    }
+
+    .main-content {
+      margin: 30px 0;
+    }
+
+    .emboss-frame {
+      border: 4px solid #222;
+      padding: 10px;
+      background-color: black;
+      box-shadow:
+        inset -4px -4px 8px #555,
+        inset 4px 4px 8px #000,
+        2px 2px 0 #888,
+        -2px -2px 0 #333;
+      display: inline-block;
+    }
+
+    .nav {
+      margin: 10px 0;
+    }
+
+    .nav a {
+      font-weight: bold;
+      color: yellow;
+      text-shadow: 1px 1px #000;
+      font-family: 'Times New Roman', serif;
+      margin: 0 10px;
+    }
+
+    .main-img {
+      display: block;
+      margin: 20px auto;
+      border: 2px solid #444;
+      max-width: 300px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .footer a {
+      color: yellow;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <h1>Welcome to:<br><span class="highlight">The <span class="name">Max Moser</span> Homepage</span></h1>
     <div class="counter">You’re visitor #<span id="counter">000001</span> since July 3, 2025</div>
+
     <div class="main-content">
-      <div class="nav">
-        <a href="#">Biography</a>
-        <a href="#">Pictures</a>
-      </div>
-      <img src="figure.jpeg" alt="Max Moser" class="main-img">
-      <div class="nav">
-        <a href="#">Newsletter</a>
-        <a href="#">Links</a>
-        <a href="#">Mailing List</a>
+      <div class="emboss-frame">
+        <div class="nav">
+          <a href="#">Biography</a>
+          <a href="#">Pictures</a>
+        </div>
+        <img src="figure.jpeg" alt="Max Moser" class="main-img">
+        <div class="nav">
+          <a href="#">Newsletter</a>
+          <a href="#">Links</a>
+          <a href="#">Mailing List</a>
+        </div>
       </div>
     </div>
+
     <div class="footer">
       <p>© Max Moser 1995–2025<br>
          Creation Date: July 3, 2025<br>
          Last Updated: July 3, 2025</p>
       <p>This homepage is best viewed in <a href="#">Netscape Navigator</a>.</p>
+      <p>Modelled on the legendary <a href="https://web.archive.org/web/19970608004456/http://www.sju.edu/~delvalle/antonio.html" target="_blank">Antonio Banderas Home Page</a> created by Vanessa DelValle (1995).</p>
     </div>
   </div>
 </body>
