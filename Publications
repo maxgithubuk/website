@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Max Moser – Publications</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #ccc;
+      font-family: 'Times New Roman', serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      color: yellow;
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+
+    .note {
+      color: #999;
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    ol {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    li {
+      margin-bottom: 18px;
+    }
+
+    .label {
+      font-weight: bold;
+      color: cyan;
+      display: inline-block;
+      width: 60px;
+    }
+
+    a {
+      color: red;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    em {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Selected Publications</h1>
+  <div class="note">J = Journal, P = Popular Article, S = In Submission</div>
+
+  <ol>
+    <li><span class="label">[S.4]</span> Moser, Max, et al. (2025). <strong>Patient experiences of long-term psychodynamic psychotherapy for mood disorders: A naturalistic semi-structured interview study</strong>. Manuscript under review at <em>Psychotherapy</em>.</li>
+
+    <li><span class="label">[S.3]</span> Moser, Max, et al. (2025). <strong>Supporting patients receiving long-term psychodynamic psychotherapy: A semi-structured interview study into the lived experiences of providers and carers</strong>. Manuscript under review at <em>Psychotherapy</em>.</li>
+
+    <li><span class="label">[S.2]</span> Moser, Max, et al. (2025). <strong>Long-term psychodynamic psychotherapy for depression and complex depression: A systematic review and meta-analysis of randomized controlled trials</strong>. Manuscript submitted for publication in <em>World Psychiatry</em>.</li>
+
+    <li><span class="label">[S.1]</span> Moser, Max, et al. (2025). <strong>Patient experiences of long-term psychodynamic psychotherapy for mood and personality disorders: A systematic review and meta-aggregation of qualitative studies</strong>. Manuscript accepted for publication in <em>Journal of Counseling Psychology</em>.</li>
+
+    <li><span class="label">[J.3]</span> Luyten, P., Moser, M., & Fonagy, P. (2025). <strong><a href="https://doi.org/10.1177/00048674251321761">Letter to the editor: Serious concerns about ‘Concerns over the process and outcomes of the review by the Royal Australian and New Zealand College of Psychiatrists into long-term psychodynamic psychotherapy’</a></strong>. <em>Australian & New Zealand Journal of Psychiatry</em>, 59(7), 651–652.</li>
+
+    <li><span class="label">[J.2]</span> Moser, Max, Barrett, A., Ozols, I., et al. (2024). <strong>Mood disorders psychodynamic psychotherapy evidence review: A mixed-methods review of current evidence and interview study of long-term psychodynamic psychotherapy as a treatment for mood disorders</strong>. Report to the Royal Australian and New Zealand College of Psychiatrists. London: Anna Freud Centre.</li>
+
+    <li><span class="label">[P.1]</span> Moser, Max. (2024). <strong><a href="https://www.fastcompany.com/91237453/why-gaining-power-makes-us-out-of-touch-with-the-people-we-lead">Why gaining power makes us out of touch with the people we lead</a></strong>. <em>Fast Company</em>.</li>
+
+    <li><span class="label">[J.1]</span> Luyten, Patrick, Campbell, Chloe, Moser, Max, Fonagy, Peter (2024). <strong><a href="https://doi.org/10.1016/j.cpr.2024.102380">The role of mentalizing in psychological interventions in adults: Systematic review and recommendations for future research</a></strong>. <em>Clinical Psychology Review</em>, Vol. 108, March 2024, pp. 102380.</li>
+  </ol>
+
+</body>
+</html>
