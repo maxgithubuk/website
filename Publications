@@ -82,4 +82,7 @@
   </ol>
 
 </body>
+<p style="text-align: center; margin-top: 40px; padding: 10px;">
+  <a href="index.html" style="color: yellow; text-decoration: underline;">&larr; Back to Homepage</a>
+</p>
 </html>
